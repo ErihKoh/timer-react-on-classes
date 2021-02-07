@@ -2,7 +2,7 @@
   "name": "timer-react-on-classes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ErihKoh.github.io/react-test-on-hook",
+  "homepage": "https://ErihKoh.github.io/timer-react-on-classes",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",

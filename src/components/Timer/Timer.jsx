@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Timer extends Component {
   state = {
@@ -6,6 +7,13 @@ class Timer extends Component {
     isOn: false,
     start: 0,
     count: 1,
+  };
+
+  static propTypes = {
+    time: PropTypes.string,
+    isOn: PropTypes.bool,
+    start: PropTypes.number,
+    count: PropTypes.number,
   };
 
   startTimer = () => {
